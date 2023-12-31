@@ -32,7 +32,7 @@ nav {
   font-size: 28px;
 }
 
-span {
+.text-logo {
   color: yellow;
 }
 
@@ -69,18 +69,37 @@ nav ul li a:hover {
   padding: 5px;
 }
 
-.container {
-  padding: 0 100px;
-}
-
-.about-content img {
+.img-luas img {
   width: 30%;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-left: 20px;
 }
 
-.about-content-2 img {
-  width: 30%;
+table {
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  background-color: yellow;
+  width: 65%;
   float: right;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-left: 20px;
+  margin-right: 40px;
+}
+
+input {
+  width: 98%;
+}
+
+.text-hitung {
+  color: rgb(24, 24, 24);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  font-size: 25px;
+  float: right;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 20px;
+  margin-right: 40px;
 }

@@ -10,7 +10,7 @@
     <header>
       <div class="navigation">
         <nav>
-          <h2 class="logo"><span>T</span>riCalc</h2>
+          <h2 class="logo"><span class="text-logo">T</span>riCalc</h2>
           <ul>
             <li><a href="#">Rumus</a></li>
             <li><a href="#">luas segitiga</a></li>
@@ -22,25 +22,59 @@
 
     <section>
       <div class="content-home">
-        <h1> Welcome To <span>T</span>riCalc</h2></h1>
+        <h1> Welcome To <span class="text-logo">T</span>riCalc</h2></h1>
         <p>Hallo teman - teman Selamat datang di Tricalc </p>
         <p>Sebuah website sederhana yang berfungsi untuk menghitung <br>
         nilai luas dan keliling Segitiga </p>
       </div>
-    </section>
-
+    
       <div class="content-judul">
         <h2> Rumus Segitiga </h2>
       </div>
 
-      <div class="container">
-        <div class="about-content">
-          <img src="assets/img/Luas Segitiga.png" alt="image 1"></div>
-        <div class="about-content-2">
-          <img src="assets/img/Keliling Segitiga.png" alt="image 2"> </div>
-      </div>
     
+      <form>
+        <table>
+          <div class="container-hitung">
+            <div class="img-luas">
+              <img src="assets/img/Luas Segitiga.png">
+            </div>  
+          
+          <h2 class="text-hitung">Menghitung Luas Segitiga</h2>  
+          <tr>
+            <td>Alas</td>
+            <td>:</td>
+            <td><input type="number" id="alas" name="alas"></td> 
+          </tr>
+          
+          <tr>
+            <td>Tinggi</td>
+            <td>:</td>
+            <td><input type="number" id="tinggi" name="tinggi"></td> 
+          </tr>
 
+          <tr>
+            <td>Hasil</td>
+            <td>:</td>
+            <td><input type="number" id="hasil" name="hasil" disabled="true" size="5"></td> 
+          </tr>
+
+          <tr>
+            <td><input type="button" value="hitung" onclick="hitungluas()"></td> 
+          </tr>
+
+          <tr>
+            <td><input type="button" value="reset" onclick="reset()"></td> 
+          </tr>
+        </table>
+      </form>
+
+  <!-- <footer>
+    
+  </footer>     -->
+    
+      
+  <script src="js/script.js"></script>
 
   </body>
 </html>

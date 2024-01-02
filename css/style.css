@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(0, 8, 34);
+  background-color: rgb(36, 36, 36);
   padding: 0;
   margin: 0;
 }
@@ -67,6 +67,7 @@ nav ul li a:hover {
   color: black;
   background-color: yellow;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .img-luas img {
@@ -79,9 +80,10 @@ nav ul li a:hover {
 table {
   color: rgb(0, 0, 0);
   border-radius: 8px;
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
   width: 65%;
   float: right;
+  padding: 10px;
   margin-top: 30px;
   padding-left: 20px;
   margin-right: 40px;
@@ -102,4 +104,50 @@ input {
   margin-top: 30px;
   padding-left: 20px;
   margin-right: 40px;
+}
+
+.b-hitung {
+  background-color: rgb(0, 110, 255);
+  border-radius: 8px;
+  border-style: none;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 5px;
+  width: 10%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 54px;
+}
+
+.button-reset {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  background-color: red;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px;
+  width: 10%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+
+.b_ganti {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: yellow;
+  float: right;
+  font-weight: 500;
+  padding: 5px;
+  width: 10%;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+#keliling {
+  display: none;
 }

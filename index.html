@@ -12,9 +12,9 @@
         <nav>
           <h2 class="logo"><span class="text-logo">T</span>riCalc</h2>
           <ul>
-            <li><a href="#">Rumus</a></li>
-            <li><a href="#">luas segitiga</a></li>
-            <li><a href="#">Keliling segitiga</a></li>
+            <li><a href="#kalkulator">Kalkulator</a></li>
+            <li><a href="#kalkulator">Rumus</a></li>
+            
           </ul>
         </nav>
       </div>
@@ -29,11 +29,9 @@
       </div>
     
       <div class="content-judul">
-        <h2> Rumus Segitiga </h2>
+        <h2> Kalkulator Segitiga </h2>
       </div>
-
-    
-      <form>
+      <form id="luas">
         <table>
           <div class="container-hitung">
             <div class="img-luas">
@@ -44,32 +42,25 @@
           <tr>
             <td>Alas</td>
             <td>:</td>
-            <td><input type="number" id="alas" name="alas"></td> 
+            <td><input type="number" id="alas" name="alas" placeholder="0"></td> 
           </tr>
           
           <tr>
             <td>Tinggi</td>
             <td>:</td>
-            <td><input type="number" id="tinggi" name="tinggi"></td> 
+            <td><input type="number" id="tinggi" name="tinggi" placeholder="0"></td> 
           </tr>
-
+    
           <tr>
             <td>Hasil</td>
             <td>:</td>
-            <td><input type="number" id="hasil" name="hasil"></td> 
+            <td><input type="number" id="hasil" name="hasil" placeholder="0"></td> 
           </tr>
-
-          <tr>
-            <td><input type="button" value="hitung" onclick="hitungluas()"></td> 
-          </tr>
-
-          <tr>
-            <td><input type="button" value="reset" onclick="reset()"></td> 
-          </tr>
+    
         </table>
       </form>
     
-      <!-- <form>
+      <form id="keliling">
         <table>
           <div class="container-hitung">
             <div class="img-luas">
@@ -80,39 +71,41 @@
           <tr>
             <td>Sisi 1</td>
             <td>:</td>
-            <td><input type="number" id="sisi1" name="sisi1"></td> 
+            <td><input type="number" id="sisi1" name="sisi1" placeholder="0"></td> 
           </tr>
           
           <tr>
             <td>Sisi 2</td>
             <td>:</td>
-            <td><input type="number" id="sisi2" name="sisi2"></td> 
+            <td><input type="number" id="sisi2" name="sisi2" placeholder="0"></td> 
           </tr>
-
+    
           <tr>
             <td>Sisi 3</td>
             <td>:</td>
-            <td><input type="number" id="sisi3" name="sisi3"></td> 
+            <td><input type="number" id="sisi3" name="sisi3" placeholder="0"></td> 
           </tr>
-
+    
           <tr>
             <td>Hasil Sisi</td>
             <td>:</td>
             <td><input type="number" id="hasil_sisi" name="hasil_sisi"></td> 
           </tr>
-
-          <tr>
-            <td><input type="button" value="hitung-keliling" onclick="hitungkeliling()"></td> 
-          </tr>
-
-          <tr>
-            <td><input type="button" value="reset" onclick="reset()"></td> 
-          </tr>
+            
         </table>
       </form>
-
-      <button value="Ganti" id="ganti">Ganti</button> -->
-
+    
+      <div id="button-hitung"> 
+        <tr>
+          <td><input class="b-hitung" type="button"  value="Hitung" onclick="hitung() "></td> 
+        </tr>
+        <tr>
+          <td><input class="button-reset" type="button" value="reset" onclick="reset()"></td> 
+        </tr>
+      </div>
+      <div>
+        <button class="b_ganti"  value="Ganti" id="button_ganti" onclick="ganti()">Ganti Ke keliling</button>
+      </div>
     
       
   <script src="js/script.js"></script>

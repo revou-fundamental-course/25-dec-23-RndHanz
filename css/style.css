@@ -152,11 +152,22 @@ input {
   display: none;
 }
 
+footer {
+  color: rgb(70, 70, 70);
+  margin-top: 640px;
+  text-align: center;
+  padding: 20px;
+}
+
 /* Responsive Mobile css  */
 @media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
     padding: 10px;
+    display: none;
+  }
+
+  footer {
     display: none;
   }
 

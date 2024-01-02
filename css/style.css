@@ -151,3 +151,58 @@ input {
 #keliling {
   display: none;
 }
+
+/* Responsive Mobile css  */
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+  }
+
+  .content-home {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .content-judul {
+    font-size: 12px;
+  }
+  .img-luas img {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+
+  table {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .text-hitung {
+    width: 100%;
+    font-size: 20px;
+    float: none;
+    margin-top: 5px;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .b-hitung,
+  .button-reset {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  .b_ganti {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+}

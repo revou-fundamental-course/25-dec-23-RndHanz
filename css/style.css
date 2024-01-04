@@ -119,6 +119,10 @@ input {
   margin-top: 20px;
   margin-left: 54px;
 }
+.b-hitung:hover {
+  background: rgb(13, 66, 211);
+  transition: 0.5s;
+}
 
 .button-reset {
   cursor: pointer;
@@ -133,6 +137,10 @@ input {
   margin-top: 20px;
   margin-left: 27px;
 }
+.button-reset:hover {
+  background: rgba(231, 0, 0, 0.822);
+  transition: 0.5s;
+}
 
 .b_ganti {
   cursor: pointer;
@@ -146,6 +154,10 @@ input {
   border-radius: 8px;
   margin-top: 20px;
   margin-right: 40px;
+}
+.b_ganti:hover {
+  background: rgba(255, 255, 0, 0.849);
+  transition: 0.5s;
 }
 
 #keliling {
